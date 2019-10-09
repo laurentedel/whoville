@@ -5,7 +5,7 @@ deploywait: 1800
 seq:
 - prep_spec: [inf-cdh62-multi, cdh62-m]
 - do_builds: [cdh62-m]
-cm_ver: 6.2
+cmver: 6.2
 tls_start: True
 clusters:
   - name: cdh62multi
